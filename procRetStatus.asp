@@ -1,4 +1,6 @@
 <%
+'Ver 0.1 Created by jaymz9634 at 2017-11-22'
+
 Session.CodePage = 949
 Response.Charset = "euc-kr"	'결과가 한글이기에 안 깨지게...'
 'On Error Resume Next'
