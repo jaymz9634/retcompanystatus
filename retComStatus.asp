@@ -10,7 +10,7 @@
 <script type="text/javascript">
 function fnRetComStatus(){
 	var params = {txprDscmNo : $("#txtRegNum").val()};
-	$.post( "/api/common/tax/proc/procRetStatus.asp", params)
+	$.post( "./proc/procRetStatus.asp", params)
 	  .done(function( data ) {
 	  	var outRegNum = $("#txtRegNum").val();
 		outRegNum = Left(outRegNum,3) + "-" + outRegNum.substring(3,5) + "-" + Right(outRegNum,5); //custom javasciprt left, right function
