@@ -1,3 +1,6 @@
+<%
+'Ver 0.1 Created by jaymz9634 at 2017-11-22'
+%>
 <%@LANGUAGE="JAVASCRIPT" CODEPAGE="949"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
